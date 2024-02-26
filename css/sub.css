@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* 메인 배너 */
+#main_slide{
+    background-color: #e95b1d;
+}
+.ms_in{
+    position: relative;
+    width: 1440px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/img_visual_sandwich.jpg);
+    background-position: center;
+}
+.ms_txt{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+.ms_txt .ms_txt_top{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.ms_txt .ms_txt_bottom{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.7em;
+}
+/* 배너 네비게이션 */
+.s_gnb_in{
+    position: relative;
+    width: 1440px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+    background-color: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.s_gnb_in ul{
+    display: flex;
+    justify-content: center;
+}
+.s_gnb_in li{
+    margin-top: 30px;
+}
+.s_gnb_in li:last-child{
+    border-right: none;
+}
+.s_gnb_in li a{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #444;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 0.9em;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.s_gnb_in li a:hover{
+    color: #009223;
+}
+/* 메인2 - 메뉴 리스트*/
+.menu_in{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.menu_in .menu_title{
+    color: #009132;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.menu_in .title_intro{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.menu_in ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu_in li{
+    width: 370px;
+    margin-left: 55px;
+    margin-right: 55px;
+    margin-bottom: 40px;
+}
+.menu_in li a{
+    color: #111;
+}
+.menu_in img{
+    width: 100%;
+    height: auto;
+}
+.item_name{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.item_name .kor{
+    font-size: 17px;
+    font-weight: 700;
+}
+.item_name .eng{
+    font-size: 13px;
+}
+.item_intro{
+    text-align: center;
+    color: #666;
+}
